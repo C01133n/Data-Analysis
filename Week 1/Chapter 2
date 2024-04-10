@@ -1,0 +1,39 @@
+Data types :
+
+•	Data Element -  is an attribute about a person ,place or a thing containing data within a range of values
+-	They describe characteristics of Activities that includes orders,transactions and events 
+Data type – limits the values a data element can have.
+Categories:
+-	Structured data
+-	Unstructured data
+-	Semi-structured data
+Tabular Data:
+-	Data organized into a table,made up of columns and rows.
+-	table represents information about a single topic.
+-	Each column represents a uniquely named field within a table, also called a variable about a single characteristic.
+-	The contents of each column contain values for the data element as defined by the column header.
+-	Each row represents a record of a single instance of the table's topic
+Database software:
+-	Oracle
+-	Microsoft SQL Server
+-	MySQL
+-	 PostgreSQL
+Structured Data Types:
+-	Structured data is tabular in nature and organized into rows and columns.
+Unstructured  data
+-	Binary
+-	Audio
+-	Images
+-	Video
+-	Large text
+
+Character
+-	The character data type limits data entry to only valid characters
+-	Characters can include the alphabet and numbers.
+•	Alphanumeric is the most widely used data type for storing character-based data.
+Data types:
+•	Numeric - integer and numeric.
+•	Whole number -  presented by 0 and 1 /on and off/TRUE and FALSE
+•	Rational number - numbers that include a decimal point
+•	Date and Time – 
+•	Currency - 
