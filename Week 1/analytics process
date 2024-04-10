@@ -1,0 +1,33 @@
+The Analytics process:
+
+1.	Data acquisition 
+2.	Cleaning and manipulation
+3.	Analysis
+4.	Visualizations
+5.	Reporting and communication
+Analytics Techniques :
+•	Descriptive analytics
+•	Predictive analytics
+•	Prescriptive analytics
+Machine learning value:
+•	Segmenting customers and determining the marketing messages that will appeal to different customer groups.
+•	Discovering anomalies in system and application logs that may be indicative of a cybersecurity incident.
+•	Forecasting product sales based on market and environmental conditions.
+•	Recommending the next movie that a customer might wish to watch based on their past activity and the preferences of similar customers.
+•	Setting prices for hotel rooms far in advance based on forecasted demand,
+Data governance:
+•	ensure that the organization has high-quality data and is able to effectively control that data.
+Golden Age analytics is made of : 
+•	Data
+•	Storage
+•	Computing
+Analytical tools:
+These tools :
+•	automate much of the heavy lifting of data analysis
+•	improves the analyst's ability to acquire, clean, manipulate, visualize, and analyze data. 
+•	provide invaluable assistance in reporting and communicating results.
+We have :
+Microsoft excel and google sheets
+R programming Language
+
+
