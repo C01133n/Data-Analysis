@@ -1,0 +1,36 @@
+Databases and Data Acquisition :
+
+Databases categories:
+-	Relational
+-	Nonrelational
+Relational Model:
+•	1969 – Edgar F. Codd from IBM developed relational Model for Database management.
+•	Builds concept of Tabular data.
+•	Entity contains data for a single subject.
+Cardinality refers to the relationship between two entities, showing how many instances of one entity relate to instances in another entity.
+ERD – 
+The first component of the terminator indicates whether the relationship between two entities is optional or required
+The second component indicates whether an entity instance in the first table is associated with a single entity instance in the related table or if an association can exist with multiple entity instances.
+ 
+
+A unary relationship is when an entity has a connection with itself.
+A binary relationship connects two entities
+A ternary relationship connects three entities.
+N:B: Binary relationships are the most common and easy to explore, whereas unary and ternary are comparatively complex and rare.
+A database administrator (DBA) is a highly trained person who understands how database software interacts with computer hardware.
+-	looks after how the database uses the underlying storage, memory, and processor resources assigned to the database
+-	looks for processes that are slowing the entire database down.
+Referential Integrity
+Relational Database Providers:
+•	oracle – released in 1979
+•	Microsoft sql server
+•	open source community created offerings including MySQL, MariaDB, and PostgreSQL.
+•	Amazon Web Services (AWS) developed Aurora
+Nonrelational Databases:
+•	Data validation happens in code, as opposed to being done in the database.
+•	Key-value - A key-value database is one of the simplest ways of storing data. Data is stored as a collection of keys and their corresponding values. A key must be globally unique across the entire database.
+
+•	Document - A document database is similar to a key-value database, with additional restrictions.
+•	Column-family = Column-family databases use an index to identify data in groups of related columns.
+•	Graph - Graph databases specialize in exploring relationships between pieces of data
+Database Use Cases:
