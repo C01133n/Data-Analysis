@@ -23,7 +23,7 @@ A database administrator (DBA) is a highly trained person who understands how da
 Referential Integrity
 Relational Database Providers:
 •	oracle – released in 1979
-•	Microsoft sql server
+•	Microsoft SQL server
 •	open source community created offerings including MySQL, MariaDB, and PostgreSQL.
 •	Amazon Web Services (AWS) developed Aurora
 Nonrelational Databases:
@@ -34,3 +34,38 @@ Nonrelational Databases:
 •	Column-family = Column-family databases use an index to identify data in groups of related columns.
 •	Graph - Graph databases specialize in exploring relationships between pieces of data
 Database Use Cases:
+Databases tend to support two major categories of data processing: 
+-	Online Transactional Processing (OLTP) - include booking a flight reservation, ordering something online, or executing a stock trade.
+-	 and Online Analytical Processing (OLAP).
+Normalization is a process for structuring a database in a way that minimizes duplication of data.
+-	One of the principles is that a given piece of data is stored once and only once. As a result, a normalized database is ideal for processing transactions.
+-	First normal form (1NF) is when every row in a table is unique and every column contains a unique value.
+-	2NF applies an additional rule stating that all nonprimary key values must depend on the entire primary key.
+-	Third normal form (3NF) builds upon 2NF by adding a rule stating all columns must depend on only the primary key
+Online Analytical Processing
+-	OLAP systems focus on the ability of organizations to analyze data.
+Schema concept:
+-	The design of a database schema depends on the purpose it serves.
+-	 Transactional systems require highly normalized databases, whereas a denormalized design is more appropriate for analytical systems.
+-	Star schemas are denormalized to improve read performance over large datasets.
+-	A snowflake schema is less denormalized than the star schema.
+•	One advantage of this approach is that it is easy to retrieve the current price while maintaining access to historical information.
+A data warehouse is a database that aggregates data from many transactional systems for analytical purposes.
+-	A data warehouse facilitates analytics across the entire company.
+Transactional data may come from systems that :
+-	power the human resources, 
+-	sales, 
+-	marketing, 
+-	and product divisions.
+Data Mart–
+-	 a subnet of data warehouse. 
+-	Data warehouses serve the entire organization, whereas data marts focus on the needs of a particular department within the organization.
+Data Lake - stores raw data in its native format instead of conforming to a relational database structure.
+Dimensionality  - refers to the number of attributes a table has.
+-	he greater the number of attributes, the higher the dimensionality.
+-	One dimension you will frequently encounter is time. It is necessary to answer questions about when something happened or when something was true.
+Handling Dimensionality:
+-	Another approach is to use an indicator flag for the current price.
+-	The indicator flag method keeps all pricing data in a single place
+-	It also simplifies the query structure to get the current price.
+
