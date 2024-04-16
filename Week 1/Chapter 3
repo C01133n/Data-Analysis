@@ -69,3 +69,126 @@ Handling Dimensionality:
 -	The indicator flag method keeps all pricing data in a single place
 -	It also simplifies the query structure to get the current price.
 
+Data Acquisition Concepts
+Integration - Data from transactional systems flow into data warehouses and data marts for analysis.
+o	Approach : extract, transform, and load (ETL)
+•	Extract – (First phase)
+	extract data from the source system and place it in a staging area.
+	The goal of the extract phase is to move data from a relational database into a flat file as quickly as possible.
+
+•	Transform – (Second phase)
+	The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
+•	Load – (Last phase)
+
+	The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
+o	Approach : ELT(Extract, Load ,Transform), data is extracted from a source database and loaded directly into the data warehouse.
+Difference: 
+•	Component performing Data Transformation 
+	ETL -python
+	ELT – SQL
+•	ELT has an advantage in the speed with which data moves from the operational to the analytical database.
+ELT Vendors:
+Data Collection:
+•	APIs - a structured method for computer systems to exchange information.
+-	APIs can be transactional, returning data as JSON objects. 
+-	APIs can also facilitate bulk data extraction, returning CSV files.
+
+•	Web services
+•	Web scrapping - If data exists in a structured format, you can retrieve it programmatically. Programmatic retrieval of data from a website is known as web scraping.
+•	Human-in-the-Loop -There are times when the data you seek exists only in people's minds. (feelings) 
+•	Surveys - One way to collect data directly from your customers is by conducting a survey.
+•	Survey tools
+•	Observation - Observation is the act of collecting primary source data, from either people or machines. Observational data can be qualitative or quantitative. Collecting qualitative observational data leads to unstructured data challenges
+•	Sampling
+Working with Data:
+DDL – Data Definition Language
+-	DDL lets you create, modify, and delete tables and other associated database objects.
+DML -  Data Manipulation Language
+-	capabilities of SQL to insert, modify, and retrieve information from databases.
+**While DDL manages the structure of a database, DML manages the data in the database.
+Data Manipulation:
+
+Four Actions to Occur: 
+
+CRUD (Create, Read, Update, Delete)
+1.	Create new data.
+2.	Read existing data.
+3.	Update existing data.
+4.	Delete existing data.
+DML Corresponding Verbs:
+Operation	SQL Keyword	Description
+Create	INSERT	Creates new data in an existing table
+Read	SELECT	Retrieves data from an existing table
+Update	UPDATE	Changes existing data in an existing table
+Delete	DELETE	Removes existing data from an existing table
+
+Filtering with Logical Operators:
+		AND operator
+SELECT Animal_Name, Breed_Name
+
+FROM  Animal
+
+WHERE Animal_Type = 'Dog'
+
+AND  Weight> 60
+		OR operator
+SELECT Animal_Name, Breed_Name
+
+FROM  Animal
+
+WHERE Animal_Type = 'Dog'
+
+OR   Weight> 10
+
+Sorting :
+-	Oder by oldest
+SELECT  Animal_Name, Breed_Name
+
+FROM   Animal
+
+WHERE  Animal_Type = 'Dog'
+
+AND   Weight> 60
+
+ORDER BY Date_of_Birth ASC
+-	Order by youngest
+SELECT  Animal_Name, Breed_Name
+
+FROM   Animal
+
+WHERE  Animal_Type = 'Dog'
+
+AND   Weight> 60
+
+ORDER BY Date_of_Birth DESC
+
+SQL considerations:
+-	The keywords in SQL are case-insensitive. However, the case-sensitivity of column names and values depend on the database configuration
+IFF Function 3 parameters:
+1.	Boolean Expression- returns true or false
+2.	True Value – returns true
+3.	False Value - returns true
+AGGREGATE Functions :
+-	aggregate functions are an easy way to summarize data.
+-	Aggregate functions summarize a query's data and return a single value.
+Function	Purpose
+COUNT	Returns the total number of rows of a query.
+MIN	Returns the minimum value from the results of a query. Note that this works on both alphanumeric and numeric data types.
+MAX	Returns the maximum value from the results of a query. Note that this works on both alphanumeric and numeric data types.
+AVG	Returns the mathematic average of the results of a query.
+SUM	Returns the sum of the results of a query.
+STDDEV	Returns the sample standard deviation of the results of a query.
+
+SYSTEM Functions:
+-	Returns data about database environment
+Example:
+-	 whenever a person or automated process uses data from a database, they need to establish a database session.
+-	A database session begins when a person/program connects to a database. The session lasts until the person/program disconnects.
+-	a poorly written query can consume most of the resources available to the database. When that happens, a database administrator can identify and terminate the problematic session
+QUERY Optimization:
+•	Parametrization - Effective use of parameterization reduces the number of times the database has to parse individual queries.
+
+•	Indexing
+•	Data subnets and temporary tables
+•	Execution plan
+
