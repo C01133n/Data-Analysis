@@ -84,3 +84,37 @@ Sampling:
 	When this happens, each value in a composite column has data that represents more than one attribute. 
 	Composite columns need to be split into their component parts to aid analysis.
 Managing Data Quality:
+
+Circumstances to check for Quality:
+•	Data Acquisition 
+•	Data transformation and conversion
+•	Data Manipulation
+•	Final product preparation
+Automated Validation:
+Data Quality dimensions
+-	It is essential to consider multiple attributes of data when considering its quality.
+-	Six dimensions to take into account when assessing data quality are :
+	Accuracy
+	Completeness
+	Consistency
+	Timeliness
+	Uniqueness
+	validity.
+Data quality rules and metrics:
+-	conformity or nonconformity of data
+-	If source data does not match the destination data type size and format, you have nonconformity.
+-	validate data conformity issues is to confirm how many rows pass successfully to the target environment and how many fail.
+Methods to validate Quality:
+-	Reasonable expectation
+•	determine whether or not the data in your analytics environment meets your reasonable expectations.
+-	Data profiling
+	profile your data. Data profiling uses statistical measures to check for data discrepancies, including values that are missing, that occur either infrequently or too frequently, or that should be eliminated. 
+	Profiling can also identify irregular patterns within your data.
+-	Data audits
+•	Data audits look at your data and help you understand whether or not you have the data you need to operate your business
+-	Sampling
+•	Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data.
+-	Cross-validation
+•	Cross-validation is a statistical technique that evaluates how well predictive models perform.
+•	Cross-validation works by dividing data into two subsets. 
+•	The first subset is the training set, and the second is the testing, or validation, set.
