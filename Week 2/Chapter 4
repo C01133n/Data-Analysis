@@ -1,0 +1,14 @@
+Data Quality:
+Duplicate Data:
+-	occurs when data representing the same transaction is accidentally duplicated within a system.
+Redundant Data:
+-	redundant data happens when the same data elements exist in multiple places within a system. 
+-	data redundancy is a function of integrating multiple systems.
+Missing Values:
+-	Missing values occur when you expect an attribute to contain data but nothing is there.
+-	Missing values are also known as null values. A null value is the absence of a value.
+-	A null is not a space, blank, or other character.
+-	Note :  Null values poses an error when working with R and Python programing try using SQL. Equivalents functions in these languages do not Handle Null values.
+Invalid Data
+-	Invalid data are values outside the valid range for a given attribute. 
+-	An invalid value violates a business rule instead of having an incorrect data type.
