@@ -1,0 +1,26 @@
+Data Analytics Tools:
+
+1.	Spreadsheets - Spreadsheets are productivity software packages that allow users to create documents that organize any type of data into rows and columns. Users may place any data they like in the spreadsheet and then quickly and easily perform mathematical calculations, such as finding the sum of the values in a row or searching out the minimum, maximum, mean, and median values in a dataset.
+
+2.	R programming - R originally appeared in the 1990s as a statistical programming language
+-	The R programming language is extremely popular among data analysts because it is focused on creating analytics applications.
+3.	Python -  Python is a general-purpose programming language. This means that it is capable of creating software to meet just about any need you might imagine. You can do everything from code a video game to perform a complex data analysis in Python.
+4.	Structured Query Language (SQL)
+
+-	Data Definition Language (DDL) is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
+
+-	Data Manipulation Language (DML) is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database.
+
+Three DDL commands:
+
+•	The CREATE command is used to create a new table within your database or a new database on your server.
+•	The ALTER command is used to change the structure of a table that you've already created. If you want to modify your database or table, the ALTER command lets you make those modifications.
+•	The DROP command deletes an entire table or database from your server. It's definitely a command that you'll want to use with caution
+Four DML commands:
+
+•	The SELECT command is used to retrieve information from a database. It is the most commonly used command in SQL as it is used to pose queries to the database and retrieve the data that you're interested in working with.
+•	The INSERT command is used to add new records to a database table. If you are adding a new employee, customer order, or marketing activity, the INSERT command allows you to add one or more rows to your database.
+•	The UPDATE command is used to modify rows in the database. If you need to change something that is already stored in your database, the UPDATE command will do that.
+•	The DELETE command is used to delete rows from a database table. Don't confuse this command with the DROP command. The DROP command deletes an entire database table, whereas the DELETE command just deletes certain rows from the table.
+Statistics Packages:
+•	IBM SPSS -  SPSS is one of the oldest statistical software packages, first released in 1968, but it continues to be used today by many statisticians.
