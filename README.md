@@ -1,3 +1,6 @@
+![Data Analysis](analytics.png)
+
+
 Contents:
 
 Chapter 1: The Data Analyst
