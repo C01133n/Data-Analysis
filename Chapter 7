@@ -1,8 +1,4 @@
 Data Visualization with Reports and Dashboards:
-•	Control
-•	Correctness
-•	Clarity
-Data Visualization with Reports and Dashboards:
 •	Control - how you focus the attention of your audience
 
 •	Correctness - makes sure that your information is accurate and that there are no spelling mistakes
@@ -25,4 +21,22 @@ Exploring Visualization Types
 •	Stacked chart - starts with a bar chart and extends it by incorporating proportional segments on each bar for categorical data.
 •	Scatter chart - uses a dot for each observation in a data set to show the relationship between two numeric variables.
 •	Bubble chart - scatterplot where the size of each dot is dependent on a third numeric variable
-•	
+2.	Histogram - chart that shows a frequency distribution for numeric data
+3.	Maps - People frequently use maps to convey the location of a country, town, or individual address
+•	Geographic maps - location-related data
+•	Heat maps - visualization that uses color and location to illustrate significance.
+•	Tree maps - uses rectangles whose area depicts a proportional representation of hierarchical data. Tree maps are effective at showing the distribution at levels within the hierarchy
+4.	Waterfall  - displays the cumulative effect of numeric values over time. Waterfall charts facilitate an understanding of how a series of events impact an initial value.
+5.	Infographic - minimize text in favor of visual elements to represent a topic in a format that is easy to understand
+6.	Word cloud - visualization that uses shape, font size, and color to signify the relative importance of words. Word clouds are effective at visualizing free-form text responses.
+Comparing Report  Types;
+1.	Dynamic and static
+•	Static - pull data from various data sources to reflect data at a specific point in time
+•	Dynamic - real-time access to information
+2.	Ad Hoc - one-time reports, use existing data to meet a unique need at a specific point in time
+3.	Self-Service (On-Demand) - allow individuals to answer questions that are unique to them at a time of their choosing. Instead of having data pushed to them, an attribute of self-service reporting is that individuals can pull a report at the time of their choosing
+4.	Recurring Reports - provide summary information on a regularly scheduled basis. Typically, recurring reports get delivered to their audience immediately after creation. For example, a company's sales leader will want monthly, quarterly, and annual sales numbers available regularly
+5.	 Tactical and Research
+•	Tactical reports - provide information to inform an organization's short-term decisions. Tactical information helps organizations accomplish initiatives like constructing a building, opening a manufacturing plant, or shipping products from one location to another
+•	A research report helps an organization make strategic decisions. To achieve strategic objectives, an organization executes multiple tactical initiatives. Where a tactical report informs a decision with a finite scope and duration, research reports inform the development of an overarching strategy.
+
